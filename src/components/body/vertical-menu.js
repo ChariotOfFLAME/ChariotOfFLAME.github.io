@@ -227,6 +227,16 @@ class Body extends React.Component {
               type="primary"
               size="large"
               id="add-new"
+              onClick={(e) => pendo.identify({"visitor": {"id": "TestUser1"},"account": {"id": "Calendly"}})}
+            >
+              CALENDLY RC TEST
+            </Button>
+          </div>
+          <div className="vertical-menu-item right button-container">
+            <Button
+              type="primary"
+              size="large"
+              id="add-new"
               onClick={(e) => this._onAddNew(e)}
             >
               ADD NEW
